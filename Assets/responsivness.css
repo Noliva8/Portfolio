@@ -1,3 +1,24 @@
+
+
+
+/* first break point */
+
+@media screen and (max-width:1124px){
+    .landing-page h1{
+        top: 80px;
+    }
+        p{
+            font-size: 1.6rem;
+        }
+    
+}
+
+
+
+
+
+
+/* second break point */
 @media screen and (max-width: 786px) {
     header{
         height: auto;
@@ -13,11 +34,30 @@
     .navigation-links a{
         color:white;
     }
+    .landing-page h1{
+        font-size: 2rem;
+        top:50%;
+        left:30%;
+        
+    }
+
+    #about-me{
+        height: 800px;;
+    }
+
+    .about-me-content{
+        flex-direction: column;
+        
+        
+    }
 
 
-}
-
-@media screen and (max-width: 600px){
-
+.separation-line{
+   width: 100px;
+    height: 8px;
     
+    }
+
+
 }
+

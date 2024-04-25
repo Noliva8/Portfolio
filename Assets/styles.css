@@ -1,6 +1,7 @@
 :root{
     --background: #292929;
     --secondary-background: #9ecbcc;
+    --text-color:#FFD700;
 
 }
 
@@ -15,6 +16,12 @@ header{
     margin-right: 10px;
 }
 
+p{
+    font-size: 2rem;
+    display: block;
+    font-family: sens-serif;
+    
+}
 
 
 
@@ -25,9 +32,11 @@ header{
 .logo{
     background-color: var(--secondary-background);
     
-    border-radius: 5px;
+    height: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
     
-    padding: 30PX;
+    
     
 
 }
@@ -83,7 +92,7 @@ header{
     left: 0; 
     width: 100%; 
     height: 2px; 
-    background-color: white; 
+    background-color: var(--text-color); 
     transition: width 0.3s ease; 
     opacity: 0; 
     
@@ -96,4 +105,114 @@ header{
 }
 
 
+/* .landing-page{
+    height: 500px;
+    width: 100%;
+    position: relative;
+    background-color: #292929
+}
+
+.landing-page img{
+    width: 100%;
+    height: auto;
+    display:block;
+
+}
+
+.landing-page h1 {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+} */
+
+.landing-page div{
+    background-image: url(/Assets/Images/Background-image.jpg);
+    background-color: var(--background); 
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+    
+
+}
+
+
+.landing-page h1{
+color: white;
+font-size: 4rem;
+ font-family: sans-serif;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ display: inline;
+}
+
+.landing-page-title{
+    color: var(--text-color);
+    font-weight: bold;
+}
+
+
+#about-me{
+    margin: 40px;
+    width: 100%;
+    height: 500px;
+    
+}
+
+.about-me-content{
+display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.about-me-title{
+
+width: 30%;
+height: 100%;
+margin: 40px;
+
+}
+
+.about-me-title h2{
+    text-align: center;
+    font-size: 3rem;
+    font-family: sans-serif;
+    
+}
+
+@keyframes line{
+    0% {opacity: 0;}
+    25% {background-color: var(--background); bottom: 0px; top: 100px;}
+    50% {background-color: var(--text-color); bottom: 100px; top: 100px;}
+    75% {background-color: var(--background); bottom: 0; top: 100px;}
+    100% {background-color: var(--text-color); bottom: 0px; top: 0px;}
+}
+
+
+.separation-line{
+    height: 100px;
+    width: 8px;
+    background-color: var(--text-color);
+    animation-name: line;
+    animation-duration: 4s;
+}
+
+
+
+
+.about-me-paragraph{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 60px;
+}
 
