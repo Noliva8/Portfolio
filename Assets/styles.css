@@ -23,6 +23,21 @@ p{
     
 }
 
+a{
+    text-decoration: none;
+    color:#292929;
+    
+
+}
+
+h3 {text-align: center;
+   margin-top: 25px;
+   font-size: 2rem;
+   font-family: sans-serif;
+
+
+}
+
 
 
 
@@ -165,15 +180,8 @@ font-size: 4rem;
     width: 100%;
     height: 400px;
     
-}
-
-#work{
-    margin:40px;
-    width:100%;
-    height: 800px;
     
 }
-
 
 
 .section-content{
@@ -216,8 +224,6 @@ margin: 40px;
 }
 
 
-
-
 .about-me-paragraph{
     display: flex;
     flex-direction: column;
@@ -226,32 +232,134 @@ margin: 40px;
 }
 
 
-.work-content{
-   display: flex;
-justify-content: center;
-align-items: center;
-box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5); 
+
+#work{
+    
+    height: 1200px;
+    position:relative;
+}
+
+.container{
+    width: 100%;
+    height: 1100px;
+    
+    position: absolute;
+    top: 0;
+    right:0;
+    left:40px;
+    transform: translate(-50% -50%);
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 .work-title h2{
-text-align: center;
     font-size: 3rem;
     font-family: sans-serif;
+    Position: absolute;
+    top: 45%;
+    left:45px;
+}
+
+
+
+.work-separation-line{
+    height: 100px;
+    width: 4px;
+    background-color: var(--text-color);
     
+    position:absolute;
+    top: 38%;
+    left: 350px;
 }
 
 .marketing-agency{
-background-color: black;
-width: 70%;
-height: 150px;
+    position: absolute;
+    right: 0;
+    top: 20px;
 }
-
 .marketing-agency img{
-    width: 1200px;
-    height: 400px;
+    width: 900px;
+    height:600px;
+    opacity: 0.8;
+    border-radius: 2%;
+
+
 }
 
-.previous-work{
-    display:flex;
-    justify-content: center;
+.marketing-agency-title{
+    background-color: white;
+    
+
+    width: 400px;
+    height: 80px;
+    position: absolute;
+    right: 850px;
+    top:300px;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
 }
+
+
+
+
+
+.red-wall{
+position: absolute;
+    bottom: 340px;
+    right: 0;
+}
+
+
+
+
+
+.red-wall img, .calculator img, .puzzel img, .run-buddy img{
+    width: 450px;
+    height: 230px;
+    
+}
+
+.red-wall-title{
+    position: absolute;
+    bottom: 90px;
+    width: 150px;
+    height: 40px;
+    left:0;
+    background-color: white;
+    box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
+
+
+}
+
+.red-wall-title h3{
+    position: absolute;
+    bottom: 10px;
+    font-size: 1.5rem;
+    left: 20px;
+}
+
+.calculator {
+   position: absolute;
+    bottom: 340px;
+    right: 470px;
+
+}
+
+.puzzel{
+    position: absolute;
+    bottom: 100px;
+    right:0;
+}
+
+.run-buddy{
+    position: absolute;
+    bottom: 100px;
+    right: 470px;
+}
+
+
+
+
+
+
+
+
+
