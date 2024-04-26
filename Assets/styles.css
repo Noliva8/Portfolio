@@ -160,21 +160,30 @@ font-size: 4rem;
 }
 
 
-#about-me{
+#about-me {
     margin: 40px;
     width: 100%;
-    height: 500px;
+    height: 400px;
     
 }
 
-.about-me-content{
+#work{
+    margin:40px;
+    width:100%;
+    height: 800px;
+    
+}
+
+
+
+.section-content{
 display: flex;
 justify-content: center;
 align-items: center;
 box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
-.about-me-title{
+.section-title{
 
 width: 30%;
 height: 100%;
@@ -182,7 +191,7 @@ margin: 40px;
 
 }
 
-.about-me-title h2{
+.section-title h2{
     text-align: center;
     font-size: 3rem;
     font-family: sans-serif;
@@ -216,3 +225,33 @@ margin: 40px;
     margin: 60px;
 }
 
+
+.work-content{
+   display: flex;
+justify-content: center;
+align-items: center;
+box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5); 
+}
+
+.work-title h2{
+text-align: center;
+    font-size: 3rem;
+    font-family: sans-serif;
+    
+}
+
+.marketing-agency{
+background-color: black;
+width: 70%;
+height: 150px;
+}
+
+.marketing-agency img{
+    width: 1200px;
+    height: 400px;
+}
+
+.previous-work{
+    display:flex;
+    justify-content: center;
+}
