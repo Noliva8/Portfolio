@@ -1,26 +1,7 @@
 
 
-
-/* first break point */
-
-@media screen and (max-width:1124px){
-    .landing-page h1{
-        top: 80px;
-    }
-        p{
-            font-size: 1.6rem;
-        }
-    
-}
-
-
-
-
-
-
-/* second break point */
-@media screen and (max-width: 786px) {
-    header{
+ @media screen and (max-width: 786px) {
+    header{ 
         height: auto;
         
     }
@@ -39,9 +20,92 @@
         top:50%;
         left:30%;
         
+    } 
+    
+    .section-content{
+        flex-direction: column;
+        gap:25px;
+        padding: 40px;
+
     }
 
-    #about-me{
+    .separation-line{
+   width: 90px;
+   min-height: 5px;
+   background-color:var(--text-color);
+   animation: line 4s infinite;
+
+   
+}
+.other-works, .contact-form {
+    flex-direction: column;
+    gap:20px;
+    
+}
+.other-works-section{
+    width: 100%;
+    height: auto;
+    background-color: var(--background);
+}
+
+.work1, .work2 , .work3 , .work4{
+     width: 900px;
+    height: 300px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+    @media screen and (max-width: 886px){
+    .landing-page h1{
+        margin-bottom: 40px;
+        font-size: 2rem;
+        right:30px;
+
+    }
+    
+}
+
+
+
+
+
+    
+
+
+
+
+
+/* @media screen and (max-width:1124px){
+    .landing-page h1{
+        top: 80px;
+    }
+        p{
+            font-size: 1.6rem;
+        }
+    
+}
+ */
+
+
+
+
+
+
+
+
+
+
+
+    /* #about-me{
         height: 800px;;
     }
 
@@ -49,15 +113,15 @@
         flex-direction: column;
         
         
-    }
+    } */
 
 
-.separation-line{
+/* .separation-line{
    width: 100px;
     height: 8px;
     
-    }
+    } */
 
 
 }
-
+  */
