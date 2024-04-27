@@ -17,7 +17,7 @@ header{
 }
 
 p{
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     display: block;
     font-family: sens-serif;
     
@@ -48,6 +48,7 @@ h3 {text-align: center;
 label,input,textarea {
     margin: 10px;
     width: 100%;
+    font-family: sans-serif;
     
     
 
@@ -59,6 +60,10 @@ input:hover,textarea:hover{
 
 textarea{
     height: 30px;
+}
+
+footer div{
+position: relative;
 }
 
 
@@ -178,7 +183,7 @@ font-size: 4rem;
 
 /* about me styiling */
 
-#about-me, #work, #contact{
+#about-me, #work, #contact, footer{
     height: auto;
     width: 100%;
 }
@@ -426,61 +431,26 @@ position: relative;
     color: var(--background);
 }
 
-/* #about-me {
-    margin: 40px;
-    width: 100%;
-    height: 400px;
-    
-    
-}
-
-
-.section-content{
-display: flex;
-justify-content: center;
-align-items: center;
-box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
-}
-
-.section-title{
-
-width: 30%;
-height: 100%;
-margin: 40px;
-
-}
-
-.section-title h2{
-    text-align: center;
-    font-size: 3rem;
-    font-family: sans-serif;
-    
-}
-
-@keyframes line{
-    0% {opacity: 0;}
-    25% {background-color: var(--background); bottom: 0px; top: 100px;}
-    50% {background-color: var(--text-color); bottom: 100px; top: 100px;}
-    75% {background-color: var(--background); bottom: 0; top: 100px;}
-    100% {background-color: var(--text-color); bottom: 0px; top: 0px;}
-}
-
-
-.separation-line{
-    height: 100px;
-    width: 8px;
-    background-color: var(--text-color);
-    animation-name: line;
-    animation-duration: 4s;
-}
-
-
-.about-me-paragraph{
+footer{
+    background-color: var(--background);
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.down{
     flex-direction: column;
+      margin: 40px;
+}
+
+.down a{
+    font-size: 1.1rem;
+
+}
+.footer-name{
+    color: white;
+    display: flex;
     gap: 30px;
-    margin: 60px;
-} */
-
-
-
+}

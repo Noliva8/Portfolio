@@ -53,6 +53,22 @@
     height: 300px;
     
 }
+.down{
+    display: none;
+}
+
+.footer-name{
+    
+    
+    gap: 10px;
+    margin: 20px;
+    padding:20px;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+ }
 
 
 
