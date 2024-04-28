@@ -45,10 +45,16 @@ h3 {text-align: center;
 
 }
 
+nav{
+    display: flex;
+}
+
+
 label,input,textarea {
-    margin: 10px;
+    margin: 10px 10px 30px 30px;
     width: 100%;
     font-family: sans-serif;
+    
     
     
 
@@ -59,7 +65,7 @@ input:hover,textarea:hover{
 }
 
 textarea{
-    height: 30px;
+    height: 100px;
 }
 
 footer div{
@@ -111,6 +117,9 @@ position: relative;
 }
 
 
+
+/* Navigation menu styling */
+
 .navigation-links {
     display: flex;
     justify-content:center;
@@ -148,7 +157,25 @@ position: relative;
     
 }
 
+.navigation-menu{
+    display: block;
+    color: var(--text-color);
+    cursor:pointer;
+    position: relative;
+    display: none;
+}
 
+.navigation-menu span{
+     height: 5px;
+     width: 30px;
+    background-color: var(--text-color);
+    margin-bottom: 5px;
+    display: block;
+}
+
+
+
+/* landing page styling */
 .landing-page div{
     background-image: url(/Assets/Images/Background-image.jpg);
     background-color: var(--background); 
@@ -208,9 +235,9 @@ font-size: 4rem;
 
 
 .separation-line{
-   width: 20px;
-   max-width: 100%;
-   min-height: 90px;
+   width: 10px;
+   
+   height: 90px;
    background-color:var(--text-color);
    animation: line 4s infinite;
 
@@ -221,6 +248,8 @@ font-size: 4rem;
     display: flex;
     flex-direction: column;
     gap:30px;
+   align-items: center;
+   margin: 0  20px 0px 20px;
 }
 
 .separation-space{
@@ -229,6 +258,8 @@ font-size: 4rem;
     box-shadow: 5px 5px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
+
+/* Work Styling */
 
 .work-content{
     display: flex;
@@ -406,6 +437,9 @@ position: relative;
 
 }
     
+
+    /* Contact page styling */
+
     .contact-form{
          display: flex;
     gap:80px;
@@ -419,6 +453,8 @@ position: relative;
 .form{
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
+    
 }
 
 .button{
@@ -430,6 +466,19 @@ position: relative;
     background-color: var(--text-color);
     color: var(--background);
 }
+
+.socials{
+    display: flex;
+    gap:30px;
+    align-items: center;
+    margin: 25px;
+    justify-content: flex-end;
+    
+}
+
+
+/* footer styling */
+
 
 footer{
     background-color: var(--background);
